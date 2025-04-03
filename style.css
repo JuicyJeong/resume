@@ -34,6 +34,10 @@ section {
     margin: auto 1rem 4rem 1rem;
 }
 
+#mainLeft section {
+    margin-bottom: 2.5rem;
+}
+
 p {
     margin: 0.2rem auto;
 }
@@ -85,7 +89,7 @@ i {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin-top: 1rem;
+    margin-top: 0.7rem;
     margin-right: 1rem;
 }
 
@@ -225,7 +229,11 @@ i {
 
 /* EDUCATION 섹션 스타일 */
 .education-item {
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
 }
 
 .education-period {
