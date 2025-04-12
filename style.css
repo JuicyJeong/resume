@@ -248,3 +248,67 @@ i {
     font-weight: 500;
     line-height: 1.4;
 }
+
+/* PROFILE 섹션 스타일 */
+.profile-content {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.profile-image {
+    width: 64%;  /* 기존 80%에서 추가로 20% 감소 (80% * 0.8 = 64%) */
+    height: auto;  /* 비율 유지 */
+    max-width: 100%;  /* 섹션 너비를 넘지 않도록 제한 */
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.profile-info {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.profile-name {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.profile-details {
+    color: #666;
+    font-size: 0.95rem;
+    margin: 0.3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-contact {
+    margin-top: 1rem;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.profile-contact p {
+    margin: 0.5rem 0;
+    color: #666;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile-contact i {
+    width: 20px;
+    margin-right: 0.8rem;
+    color: #3498db;
+}
+
+.profile-contact a {
+    color: #666;
+    text-decoration: none;
+}
+
+.profile-contact a:hover {
+    color: #3498db;
+}
