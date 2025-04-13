@@ -10,9 +10,9 @@
 <body>
     <header id="header">
         <!-- 이력서 헤더 : 이름과 타이틀 작성 -->
-        <h1>정진우</h1>
+        <h1>RESUME</h1>
         <hr>
-        데이터 수집과 전처리를 좋아하는 AI 엔지니어
+        Solving real problems with digital creativity.
         <hr>
       </header>
       
@@ -24,7 +24,7 @@
                     <img src="asset/진우신분증.jpg" alt="정진우 프로필 사진" class="profile-image">
                     <div class="profile-info">
                         <h3 class="profile-name">정진우 | JEONG JINWOO</h3>
-                        <p class="profile-details">생년월일 : 1995년 03월 27일</p>
+                        <p class="profile-details">1995. 03. 27</p>
                         <div class="profile-contact">
                             <p>
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -46,29 +46,37 @@
                 <h2>EDUCATION</h2>
                 <div class="education-item">
                     <div class="education-period">2023.03 ~ 2025.02</div>
-                    <div class="education-info">중앙대학교 첨단영상대학원 영상학과 AI Imaging 전공</div>
+                    <div class="education-info">
+                        <div class="school-name">Chung-Ang University</div>
+                        <div class="graduate-school">Graduate School of Advanced Imaging Science, Multimedia & Film</div>
+                        <div class="major-info">Major: Image Engineering: AI Imaging</div>
+                    </div>
                 </div>
                 <div class="education-item">
                     <div class="education-period">2015.03 ~ 2023.02</div>
-                    <div class="education-info">경기대학교 산업경영공학과</div>
+                    <div class="education-info">
+                        <div class="school-name">Kyonggi University</div>
+                        <div class="major-info">Major: Industrial Management Engineering</div>
+                    </div>
                 </div>
                 <div class="education-item">
                     <div class="education-period">2011.03 ~ 2014.02</div>
-                    <div class="education-info">송림고등학교</div>
+                    <div class="education-info">
+                        <div class="school-name">Songlim High School</div>
+                    </div>
                 </div>
             </section>
             <section>
                 <h2>ABOUT</h2>
                 <div class="about-content">
                     <p>
-                        데이터 수집과 전처리를 좋아하는 AI 엔지니어 정진우입니다.
-                        센서 데이터, 웹 크롤링, 로그 분석 등 다양한 데이터를 정리하고 활용하는 과정에서 즐거움을 느낍니다.
+                        I am an AI engineer specializing in data collection and preprocessing, with expertise in handling sensor data, web crawling, and log analysis.
                     </p>
                     <p>
-                        대학원에서는 IMU, LiDAR 센서를 활용한 동작 인식 및 3D 포즈 추정 시스템을 개발하고, 이를 Unity3D 아바타에 연동해 시각화했습니다. 또한, 기존 딥러닝 모델을 수정해 비행 동작 등 가상 동작을 생성하고, 이를 국내외 학회에 발표한 경험이 있습니다. 이 과정에서 데이터 전처리, 모델 재학습, 쉘스크립트 기반 자동화도 함께 수행했습니다.
+                        At graduate school, I focus on motion recognition and 3D pose estimation using IMU and LiDAR sensors, integrating with Unity3D for visualization. I have experience in modifying deep learning models for virtual motion generation and presenting research at international conferences.
                     </p>
                     <p>
-                        개인 프로젝트로는 전시 행사 운영을 위한 부스 데이터 크롤링 및 혼잡도 예측 시스템을 개발해 실무에 적용했습니다. 게임 및 음원 순위 데이터를 수집·분석하고 SNS에 자동 게시하는 시스템도 구현하며 실용적인 개발 경험을 쌓아왔습니다.
+                        My personal projects include developing data crawling systems for exhibition management and creating automated systems for collecting and analyzing game and music chart data for SNS posting.
                     </p>
                 </div>
             </section>
@@ -112,59 +120,73 @@
                     </div>
                 </div>
             </section>
+            
+            <section>
+                <h2>CERTIFICATION</h2>
+                <div class="certification-container">
+                    <div class="certification-item">
+                        <div class="certification-name">ADsP (Advanced Data Analytics Semi-Professional)</div>
+                        <div class="certification-date">2021.09.24</div>
+                    </div>
+                    <div class="certification-item">
+                        <div class="certification-name">TOEIC Speaking</div>
+                        <div class="certification-level">Intermediate High</div>
+                        <div class="certification-date">2025.01.23</div>
+                    </div>
+                </div>
+            </section>
         </article>
 
         <article id="mainRight">          
             <section>
                 <h2>PROJECTS</h2>
-                <!-- 프로젝트 작성 -->
                 <div class="project-section">
-                    <h3>대학원 프로젝트</h3>
+                    <h3>Graduate School Projects</h3>
                     
                     <div class="project-item">
                         <h4>
-                            <span class="project-title">학습 데이터셋을 변형한 아바타 동작 생성 모델 재학습</span>
+                            <span class="project-title">Model Retraining for Avatar Motion Generation with Modified Training Dataset</span>
                             <a href="https://github.com/JuicyJeong/ACTOR_jw" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </h4>
                         <ul>
-                            <li>기존 공개된 딥러닝 동작 생성 모델(ACTOR)을 기반으로 특정 동작 데이터를 재학습</li>
-                            <li>3D 동작 데이터의 관절 값 및 위치 데이터를 수정하고, 새로운 시퀀스를 생성</li>
-                            <li>Unity3D 기반 가상환경에서 실제 아바타에 재학습된 동작을 적용하여 시각화 시연</li>
-                            <li>주요 작업 내용: 10,000개 이상의 동작 데이터 일괄 변환 스크립트 작성, 딥러닝 모델 재학습</li>
+                            <li>Retrained existing deep learning motion generation model (ACTOR) with specific motion data</li>
+                            <li>Modified joint values and position data of 3D motion data to generate new sequences</li>
+                            <li>Demonstrated visualization by applying retrained motions to actual avatars in Unity3D-based virtual environment</li>
+                            <li>Key tasks: Created batch conversion scripts for over 10,000 motion data, Retrained deep learning model</li>
                         </ul>
                         <p class="project-keywords"><strong>Keyword</strong>: PyTorch, Motion Generation, Unity3D, Dataset Adaptation, SMPL-X, 3D Pose</p>
                     </div>
 
                     <div class="project-item">
                         <h4>
-                            <span class="project-title">동작 유사도 기반 분류 자동화 및 시각화 툴 개발</span>
+                            <span class="project-title">Development of Motion Similarity-based Classification and Visualization Tool</span>
                             <a href="https://github.com/JuicyJeong/TMR_jw" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </h4>
                         <ul>
-                            <li>사전학습된 텍스트-모션 기반 모델(TMR)의 인코더를 활용해 동작 데이터의 벡터 임베딩 생성</li>
-                            <li>생성된 벡터 임베딩 값을 기반으로 동작간의 유사도 비교 진행</li>
-                            <li>동작을 시각화 해야하는 정성적 검토 시간을 단축시킴</li>
-                            <li>주요 작업 내용:데이터 로더 신규 작성, 벡터 임베딩 비교 과정 병렬처리, 유사도 표 작성 </li>
+                            <li>Generated motion vector embeddings using the encoder from pre-trained text-motion model (TMR)</li>
+                            <li>Conducted motion similarity comparison based on generated vector embeddings</li>
+                            <li>Reduced qualitative review time required for motion visualization</li>
+                            <li>Key tasks: Created new data loader, Implemented parallel processing for vector embedding comparison, Generated similarity tables</li>
                         </ul>
                         <p class="project-keywords"><strong>Keyword</strong>: PyTorch, Motion Similarity, Vector Embedding, Automation, Visualization</p>
                     </div>
 
                     <div class="project-item">
                         <h4>
-                            <span class="project-title">Unity3D 아바타에 센서 데이터를 연동한 3D 동작 시각화</span>
+                            <span class="project-title">3D Motion Visualization with Sensor Data Integration in Unity3D Avatar</span>
                             <a href="https://github.com/JuicyJeong/Metaverse_VElab/tree/main/MotionCapture/SMPL_X_UNITY/Assets/SMPLX/Scripts" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </h4>
                         <ul>
-                            <li>Unity3D 상에서 SMPL-X 아바타 모델을 활용해 3D 아바타 환경 구축</li>
-                            <li>IMU 센서 데이터를 수신하여 실시간으로 아바타 관절 회전값에 반영</li>
-                            <li>센서 캘리브레이션, 바디 포즈 해석, 아바타 동기화 스크립트를 직접 작성</li>
-                            <li>주요 작업 내용: 센서 회전 데이터 변환, 회전 정보 아바타 관절에 적용, Unity3D-센서 좌표계 정렬 </li>
+                            <li>Built 3D avatar environment using SMPL-X avatar model in Unity3D</li>
+                            <li>Implemented real-time IMU sensor data reception and application to avatar joint rotations</li>
+                            <li>Developed custom scripts for sensor calibration, body pose interpretation, and avatar synchronization</li>
+                            <li>Key tasks: Sensor rotation data conversion, Joint rotation application to avatar, Unity3D-sensor coordinate system alignment</li>
                         </ul>
                         <p class="project-keywords"><strong>Keyword</strong>: Unity3D, C#, SMPL-X, IMU, Pose Estimation, Real-Time Motion Capture</p>
                     </div>
@@ -173,55 +195,55 @@
                 <hr class="project-divider">
 
                 <div class="project-section">
-                    <h3>개인 프로젝트</h3>
+                    <h3>Personal Projects</h3>
 
                     <div class="project-item">
                         <h4>
-                            <span class="project-title">만화 행사 부스 정보 크롤링 및 시각화 시스템</span>
+                            <span class="project-title">Comic Event Booth Information Crawling and Visualization System</span>
                             <a href="https://github.com/JuicyJeong/dongneboothlist" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </h4>
                         <ul>
-                            <li>만화 전시 행사 참가 부스 정보를 홈페이지에서 웹크롤링 후, Google Sheets에 시각화</li>
-                            <li>자동 업데이트, 부스 태그 필터링, 중요 부스 시각화 등을 통해 운영팀의 부스 배치 의사결정을 지원</li>
-                            <li>해당 프로젝트와 연계하여 부스 사용자의 SNS 영향력을 체크하는 프로젝트 작성</li>
-                            <li>주요 작업 내용: bs4를 통한 웹페이지 정보 크롤링, 부스 정보 테이블 화 및 스프레드시트 공유, 서버에서 크롤링 - 시트 업데이트 자동화</li>
+                            <li>Web crawled comic exhibition booth information and visualized it in Google Sheets</li>
+                            <li>Supported operations team's booth placement decisions through automatic updates, booth tag filtering, and key booth visualization</li>
+                            <li>Developed an associated project to check booth users' SNS influence</li>
+                            <li>Key tasks: Web page information crawling using bs4, Booth information tabulation and spreadsheet sharing, Automation of crawling and sheet updates on server</li>
                         </ul>
                         <p class="project-keywords"><strong>Keyword</strong>: Python, Web Crawling, BeautifulSoup, Pandas, Google Sheets API, Data Visualization</p>
                     </div>
 
                     <div class="project-item">
                         <h4>
-                            <span class="project-title">행사 부스 참가 계정 정보 취득 및 정리 시스템</span>
+                            <span class="project-title">Event Booth Participant Account Information Collection System</span>
                             <a href="https://github.com/JuicyJeong/dongneboothlist/tree/master/Account_info" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </h4>
                         <ul>
-                            <li>부스 신청자 계정 정보를 자동 수집하고 Google Sheets에 분류 및 업로드</li>
-                            <li>이름, 트위터 계정, 최상단 게시글 정보를 취득하여 시트로 정리</li>
-                            <li>데이터 수집 후 주요 태그 통계, 인기 부스 트렌드 등을 시각화하여 사전 운영 계획에 반영</li>
-                            <li>주요 작업 내용: 스프레드 시트 전처리, CSS 셀렉터 지정, 유저 정보 확보</li>
+                            <li>Automated collection and organization of booth applicant account information in Google Sheets</li>
+                            <li>Gathered and organized names, Twitter accounts, and top post information</li>
+                            <li>Visualized key tag statistics and popular booth trends for pre-event planning</li>
+                            <li>Key tasks: Spreadsheet preprocessing, CSS selector configuration, User information acquisition</li>
                         </ul>
                         <p class="project-keywords"><strong>Keyword</strong>: Python, Web Crawling, Bot, Selenium</p>
                     </div>
 
                     <div class="project-item">
                         <h4>
-                            <span class="project-title">음원 차트 데이터 수집 및 트위터 자동 게시 시스템</span>
+                            <span class="project-title">Music Chart Data Collection and Twitter Auto-Posting System</span>
                             <a href="https://github.com/JuicyJeong/streaming_chart_tweet" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
                         </h4>
                         <ul>
-                            <li>실시간 음원 차트 데이터를 크롤링하여 정해진 포맷으로 정리</li>
-                            <li>트위터 API를 활용해 수집된 데이터를 자동으로 게시하는 봇 구현</li>
-                            <li>일간/주간 차트 업데이트를 자동화하여 반복 작업 없이 운영 가능</li>
-                            <li>이벤트별 팬덤 활동을 지원하기 위해 통계 데이터 및 순위 변동 정보 포함</li>
-                            <li>주요 작업내용: 데이터 수집 및 csv로 정리, API 키 발급, 게시글 내용 자동 생성</li>
+                            <li>Organized real-time music chart data into specified formats through crawling</li>
+                            <li>Implemented bot using Twitter API for automated data posting</li>
+                            <li>Automated daily/weekly chart updates for maintenance-free operation</li>
+                            <li>Included statistics and ranking changes to support fandom activities during events</li>
+                            <li>Key tasks: Data collection and CSV organization, API key management, Automated post content generation</li>
                         </ul>
-                        <p class="project-keywords"><strong>Keyword</strong>: Python, Web Crawling, BeautifulSoup, Tweepy, 트위터 API, Ubuntu</p>
+                        <p class="project-keywords"><strong>Keyword</strong>: Python, Web Crawling, BeautifulSoup, Tweepy, Twitter API, Ubuntu</p>
                     </div>
                 </div>
             </section>
@@ -229,12 +251,171 @@
             <section>
                 <h2>ETC</h2>
                 <ul>
-                    <li>파이썬 크롤링(bs4)을 통한 2022서울카페쇼 참여 부스 리스트 정리 및 배포</li>
-                    <li>레고 모형을 이용한 공장 시뮬레이션 제작. 기기 제어 키트인 'Mindstorm EV3'를 Python으로 구동시키도록 스크립트 작성</li>
-                    <li>게임 '파이널 판타지14' 내부의 경쟁전 이벤트 등수를 웹페이지에서 크롤링하여 csv형식으로 정리</li>
+                    <li>Organized and distributed booth list for Seoul Cafe Show 2022 using Python web crawling (BeautifulSoup4)</li>
+                    <li>Created factory simulation using LEGO models, wrote Python scripts to operate 'Mindstorm EV3' device control kit</li>
+                    <li>Developed crawler to collect and organize PvP event rankings from the game 'Final Fantasy XIV' into CSV format</li>
                 </ul>
             </section>
         </article>
       </main>
+
+    <!-- 1칼럼 섹션 시작 -->
+    <div class="single-column-section">
+        <section>
+            <h2>FULL-TIME</h2>
+            <div class="full-time-item">
+                <div class="position-header">
+                    <div class="position-title">Graduate Research Assistant</div>
+                    <div class="position-location">Chung-Ang University – VELAB (Visual Environment Lab), Seoul, Korea</div>
+                    <div class="position-period">Feb 2023 – Dec 2024</div>
+                </div>
+                <div class="project-details">
+                    <p class="project-description">
+                        • Participated in a national R&D project funded by the Ministry of Science and ICT:
+                    </p>
+                    <p class="project-name">
+                        "Proxemics-based Pervasive Interactions for Wide-area, High-speed, Serial Motion Recognition"
+                    </p>
+                    <p class="project-affiliation">
+                        (Software Star-Lab, Fundamental SW Computing Technology Development Program)
+                    </p>
+                </div>
+                
+                <div class="publications">
+                    <h3>Publications</h3>
+                    
+                    <div class="publication-section">
+                        <h4>International</h4>
+                        <div class="publication-item">
+                            <div class="publication-title">
+                                Plausible and Effective Gesture-based Interactions for the Virtual Runway
+                                <a href="https://ieeexplore.ieee.org/document/10910725" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                            <div class="publication-conference">(ICDDS 2024.12)</div>
+                        </div>
+                        <div class="publication-item">
+                            <div class="publication-title">
+                                From Ground to Sky: Flying-motion Generation via Motion Dataset Adaptation
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3641825.3689507" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                            <div class="publication-conference">(ACM - VRST 2024.10)</div>
+                        </div>
+                    </div>
+
+                    <div class="publication-section">
+                        <h4>Domestic</h4>
+                        <div class="publication-item">
+                            <div class="publication-title-group">
+                                <div class="publication-title-kr">
+                                    비행 동작 데이터셋을 강화하기 위한 모션 생성 네트워크와 목표 시퀀스 궤적의 통합
+                                </div>
+                                <div class="publication-title-en">
+                                    Integrating Motion Generation Networks with Target Sequence Trajectories to Enrich the Flying Motion Dataset
+                                    <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12041766" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="publication-conference">(Korea Software Congress, 2024.12)</div>
+                        </div>
+                        <div class="publication-item">
+                            <div class="publication-title-group">
+                                <div class="publication-title-kr">
+                                    시각장애인의 키오스크 상호작용을 위한 효율적인 동작 인식 방법
+                                </div>
+                                <div class="publication-title-en">
+                                    Efficient Gesture Recognition Method on Kiosk Interactions for the Visually Impaired
+                                    <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705402" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="publication-conference">(Korea Software Congress, 2023.12)</div>
+                        </div>
+                        <div class="publication-item">
+                            <div class="publication-title-group">
+                                <div class="publication-title-kr">
+                                    가상 지휘자의 애니메이션을 위한 실감나는 손동작 저작
+                                </div>
+                                <div class="publication-title-en">
+                                    The Realistic Hand Gesture Authoring for a Virtual Conductor Animation
+                                    <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705405" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="publication-conference">(Korea Software Congress, 2023.12, Co-author)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>PART-TIME</h2>
+            <div class="full-time-item">
+                <div class="position-header">
+                    <div class="position-title">Event Operations Manager</div>
+                    <div class="position-location">
+                        Dongin Network, Seoul, Korea
+                        <a href="https://dongne.co/" class="publication-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <div class="position-period">Jul 2016 – Jan 2025</div>
+                </div>
+                <div class="project-details">
+                    <ul class="experience-list">
+                        <li>Coordinated large-scale subculture conventions with over 5,000 visitors, held at major venues including COEX and BEXCO.</li>
+                        <li>Led staff scheduling and booth layout planning, optimizing visitor flow and reducing crowd congestion.</li>
+                        <li>Developed and maintained internal Google Sheets-based visualization systems to forecast high-traffic booths and preemptively adjust floor plans.</li>
+                        <li>Served as on-site manager, liaising between exhibitors and event organizers, and resolving unexpected disruptions in real time.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="full-time-item">
+                <div class="position-header">
+                    <div class="position-title">Teaching Assistant & EdTech Operator</div>
+                    <div class="position-location">ISEnglish Academy, Seongnam, Korea</div>
+                    <div class="position-period">Mar 2015 – Jul 2018; Sep 2019 – Jul 2022</div>
+                </div>
+                <div class="project-details">
+                    <ul class="experience-list">
+                        <li>Assisted students with vocabulary and homework review, and supported teachers during mock exams and grading.</li>
+                        <li>Took initiative during COVID-19 to build and operate a remote teaching environment using OBS Studio, Zoom, and a custom WordPress homepage.</li>
+                        <li>Designed and maintained a remote class archive and video distribution system, enabling hybrid access for both enrolled and external students.</li>
+                        <li>Streamlined video workflows and resolved technical issues involving streaming setup, camera configuration, and online attendance tracking.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 세 번째 파트타임 경력 -->
+            <div class="full-time-item">
+                <div class="position-header">
+                    <div class="position-title">Production & Operations Manager</div>
+                    <div class="position-location">
+                        Dongne Gongjakso (Acrylic Goods Studio), Seoul, Korea
+                        <a href="https://dongne.cc/" class="publication-link" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                    <div class="position-period">Oct 2016 – Sep 2017</div>
+                </div>
+                <div class="project-details">
+                    <ul class="experience-list">
+                        <li>Managed the entire production workflow of custom acrylic merchandise, including order intake, design verification, laser cutting, post-processing, and shipping.</li>
+                        <li>Automated parts of the order entry and production prep process using Excel-based scripting, reducing manual overhead and improving order accuracy.</li>
+                        <li>Handled seasonal volume surges (up to 4–5x normal) by coordinating external print vendors and reallocating production strategy to meet deadlines.</li>
+                        <li>Developed a hybrid fulfillment strategy by offering on-site event pickup options to reduce delivery bottlenecks.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
