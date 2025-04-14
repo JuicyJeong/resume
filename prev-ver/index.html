@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://kit.fontawesome.com/99bd1087ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <!-- 이력서 헤더 : 이름과 타이틀 작성 -->
+        <h1>정진우</h1>
+        <hr>
+        데이터 수집과 전처리를 좋아하는 AI 엔지니어
+        <hr>
+      </header>
+      
+      <main>
+        <article id="mainLeft">
+            <section>
+                <h2>PROFILE</h2>
+                <div class="profile-content">
+                    <img src="asset/진우신분증.jpg" alt="정진우 프로필 사진" class="profile-image">
+                    <div class="profile-info">
+                        <h3 class="profile-name">정진우 | JEONG JINWOO</h3>
+                        <p class="profile-details">생년월일 : 1995년 03월 27일</p>
+                        <div class="profile-contact">
+                            <p>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <a href="mailto:jinwoo327@gmail.com" target="_blank" rel="noopener noreferrer">jinwoo327@gmail.com</a>
+                            </p>
+                            <p>
+                                <i class="fa fa-github" aria-hidden="true"></i>
+                                <a href="https://github.com/JuicyJeong" target="_blank" rel="noopener noreferrer">Github</a>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                                010-3277-6270
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>EDUCATION</h2>
+                <div class="education-item">
+                    <div class="education-period">2023.03 ~ 2025.02</div>
+                    <div class="education-info">중앙대학교 첨단영상대학원 영상학과 AI Imaging 전공</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-period">2015.03 ~ 2023.02</div>
+                    <div class="education-info">경기대학교 산업경영공학과</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-period">2011.03 ~ 2014.02</div>
+                    <div class="education-info">송림고등학교</div>
+                </div>
+            </section>
+            <section>
+                <h2>ABOUT</h2>
+                <div class="about-content">
+                    <p>
+                        데이터 수집과 전처리를 좋아하는 AI 엔지니어 정진우입니다.
+                        센서 데이터, 웹 크롤링, 로그 분석 등 다양한 데이터를 정리하고 활용하는 과정에서 즐거움을 느낍니다.
+                    </p>
+                    <p>
+                        대학원에서는 IMU, LiDAR 센서를 활용한 동작 인식 및 3D 포즈 추정 시스템을 개발하고, 이를 Unity3D 아바타에 연동해 시각화했습니다. 또한, 기존 딥러닝 모델을 수정해 비행 동작 등 가상 동작을 생성하고, 이를 국내외 학회에 발표한 경험이 있습니다. 이 과정에서 데이터 전처리, 모델 재학습, 쉘스크립트 기반 자동화도 함께 수행했습니다.
+                    </p>
+                    <p>
+                        개인 프로젝트로는 전시 행사 운영을 위한 부스 데이터 크롤링 및 혼잡도 예측 시스템을 개발해 실무에 적용했습니다. 게임 및 음원 순위 데이터를 수집·분석하고 SNS에 자동 게시하는 시스템도 구현하며 실용적인 개발 경험을 쌓아왔습니다.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h2>SKILLS</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming & Scripting</h3>
+                        <div class="divider"></div>
+                        <ul>
+                            <li>Python, C#, C++, Shell Script, Bash</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & Deep Learning</h3>
+                        <div class="divider"></div>
+                        <ul>
+                            <li>PyTorch, TensorFlow, Motion Generation, LLM</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Handling & Crawling</h3>
+                        <div class="divider"></div>
+                        <ul>
+                            <li>Pandas, Numpy, Matplotlib, BeautifulSoup, Selenium</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Dev Tools & Infra</h3>
+                        <div class="divider"></div>
+                        <ul>
+                            <li>Git, GitHub, Docker, Conda, uv, Ubuntu, NAS</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Graphics & Documentation</h3>
+                        <div class="divider"></div>
+                        <ul>
+                            <li>Unity3D, Blender, AdobeCC, Google Sheets, Notion, MS Office</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article id="mainRight">          
+            <section>
+                <h2>PROJECTS</h2>
+                <!-- 프로젝트 작성 -->
+                <div class="project-section">
+                    <h3>대학원 프로젝트</h3>
+                    
+                    <div class="project-item">
+                        <h4>
+                            <span class="project-title">학습 데이터셋을 변형한 아바타 동작 생성 모델 재학습</span>
+                            <a href="https://github.com/JuicyJeong/ACTOR_jw" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </h4>
+                        <ul>
+                            <li>기존 공개된 딥러닝 동작 생성 모델(ACTOR)을 기반으로 특정 동작 데이터를 재학습</li>
+                            <li>3D 동작 데이터의 관절 값 및 위치 데이터를 수정하고, 새로운 시퀀스를 생성</li>
+                            <li>Unity3D 기반 가상환경에서 실제 아바타에 재학습된 동작을 적용하여 시각화 시연</li>
+                            <li>주요 작업 내용: 10,000개 이상의 동작 데이터 일괄 변환 스크립트 작성, 딥러닝 모델 재학습</li>
+                        </ul>
+                        <p class="project-keywords"><strong>Keyword</strong>: PyTorch, Motion Generation, Unity3D, Dataset Adaptation, SMPL-X, 3D Pose</p>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>
+                            <span class="project-title">동작 유사도 기반 분류 자동화 및 시각화 툴 개발</span>
+                            <a href="https://github.com/JuicyJeong/TMR_jw" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </h4>
+                        <ul>
+                            <li>사전학습된 텍스트-모션 기반 모델(TMR)의 인코더를 활용해 동작 데이터의 벡터 임베딩 생성</li>
+                            <li>생성된 벡터 임베딩 값을 기반으로 동작간의 유사도 비교 진행</li>
+                            <li>동작을 시각화 해야하는 정성적 검토 시간을 단축시킴</li>
+                            <li>주요 작업 내용:데이터 로더 신규 작성, 벡터 임베딩 비교 과정 병렬처리, 유사도 표 작성 </li>
+                        </ul>
+                        <p class="project-keywords"><strong>Keyword</strong>: PyTorch, Motion Similarity, Vector Embedding, Automation, Visualization</p>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>
+                            <span class="project-title">Unity3D 아바타에 센서 데이터를 연동한 3D 동작 시각화</span>
+                            <a href="https://github.com/JuicyJeong/Metaverse_VElab/tree/main/MotionCapture/SMPL_X_UNITY/Assets/SMPLX/Scripts" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </h4>
+                        <ul>
+                            <li>Unity3D 상에서 SMPL-X 아바타 모델을 활용해 3D 아바타 환경 구축</li>
+                            <li>IMU 센서 데이터를 수신하여 실시간으로 아바타 관절 회전값에 반영</li>
+                            <li>센서 캘리브레이션, 바디 포즈 해석, 아바타 동기화 스크립트를 직접 작성</li>
+                            <li>주요 작업 내용: 센서 회전 데이터 변환, 회전 정보 아바타 관절에 적용, Unity3D-센서 좌표계 정렬 </li>
+                        </ul>
+                        <p class="project-keywords"><strong>Keyword</strong>: Unity3D, C#, SMPL-X, IMU, Pose Estimation, Real-Time Motion Capture</p>
+                    </div>
+                </div>
+
+                <hr class="project-divider">
+
+                <div class="project-section">
+                    <h3>개인 프로젝트</h3>
+
+                    <div class="project-item">
+                        <h4>
+                            <span class="project-title">만화 행사 부스 정보 크롤링 및 시각화 시스템</span>
+                            <a href="https://github.com/JuicyJeong/dongneboothlist" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </h4>
+                        <ul>
+                            <li>만화 전시 행사 참가 부스 정보를 홈페이지에서 웹크롤링 후, Google Sheets에 시각화</li>
+                            <li>자동 업데이트, 부스 태그 필터링, 중요 부스 시각화 등을 통해 운영팀의 부스 배치 의사결정을 지원</li>
+                            <li>해당 프로젝트와 연계하여 부스 사용자의 SNS 영향력을 체크하는 프로젝트 작성</li>
+                            <li>주요 작업 내용: bs4를 통한 웹페이지 정보 크롤링, 부스 정보 테이블 화 및 스프레드시트 공유, 서버에서 크롤링 - 시트 업데이트 자동화</li>
+                        </ul>
+                        <p class="project-keywords"><strong>Keyword</strong>: Python, Web Crawling, BeautifulSoup, Pandas, Google Sheets API, Data Visualization</p>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>
+                            <span class="project-title">행사 부스 참가 계정 정보 취득 및 정리 시스템</span>
+                            <a href="https://github.com/JuicyJeong/dongneboothlist/tree/master/Account_info" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </h4>
+                        <ul>
+                            <li>부스 신청자 계정 정보를 자동 수집하고 Google Sheets에 분류 및 업로드</li>
+                            <li>이름, 트위터 계정, 최상단 게시글 정보를 취득하여 시트로 정리</li>
+                            <li>데이터 수집 후 주요 태그 통계, 인기 부스 트렌드 등을 시각화하여 사전 운영 계획에 반영</li>
+                            <li>주요 작업 내용: 스프레드 시트 전처리, CSS 셀렉터 지정, 유저 정보 확보</li>
+                        </ul>
+                        <p class="project-keywords"><strong>Keyword</strong>: Python, Web Crawling, Bot, Selenium</p>
+                    </div>
+
+                    <div class="project-item">
+                        <h4>
+                            <span class="project-title">음원 차트 데이터 수집 및 트위터 자동 게시 시스템</span>
+                            <a href="https://github.com/JuicyJeong/streaming_chart_tweet" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </h4>
+                        <ul>
+                            <li>실시간 음원 차트 데이터를 크롤링하여 정해진 포맷으로 정리</li>
+                            <li>트위터 API를 활용해 수집된 데이터를 자동으로 게시하는 봇 구현</li>
+                            <li>일간/주간 차트 업데이트를 자동화하여 반복 작업 없이 운영 가능</li>
+                            <li>이벤트별 팬덤 활동을 지원하기 위해 통계 데이터 및 순위 변동 정보 포함</li>
+                            <li>주요 작업내용: 데이터 수집 및 csv로 정리, API 키 발급, 게시글 내용 자동 생성</li>
+                        </ul>
+                        <p class="project-keywords"><strong>Keyword</strong>: Python, Web Crawling, BeautifulSoup, Tweepy, 트위터 API, Ubuntu</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>ETC</h2>
+                <ul>
+                    <li>파이썬 크롤링(bs4)을 통한 2022서울카페쇼 참여 부스 리스트 정리 및 배포</li>
+                    <li>레고 모형을 이용한 공장 시뮬레이션 제작. 기기 제어 키트인 'Mindstorm EV3'를 Python으로 구동시키도록 스크립트 작성</li>
+                    <li>게임 '파이널 판타지14' 내부의 경쟁전 이벤트 등수를 웹페이지에서 크롤링하여 csv형식으로 정리</li>
+                </ul>
+            </section>
+        </article>
+      </main>
+</body>
+</html>
