@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정진우 경력기술서 | Jinwoo Jeong's Career Description</title>
+    <script src="https://kit.fontawesome.com/99bd1087ad.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 전체 공통 스타일 */
+        body {
+            color: #2c3e50;  /* 기본 텍스트 색상 통일 */
+            line-height: 1.44;  /* 1.6에서 10% 감소 */
+        }
+
+        /* 섹션 제목 스타일 통일 */
+        .career-section h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin: 2.5rem 0 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #3498db;
+            font-weight: 600;
+        }
+
+        /* 회사 정보 스타일 */
+        .company-header {
+            margin-bottom: 1.08rem;  /* 1.2rem에서 10% 감소 */
+        }
+
+        .company-name {
+            font-size: 1.3rem;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+            line-height: 1.35;  /* 1.5에서 10% 감소 */
+        }
+
+        .company-period {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .position-title {
+            color: #3498db;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+
+        /* 프로젝트 타이틀 섹션 */
+        .project-title-section {
+            margin: 0.9rem 0;  /* 1rem에서 10% 감소 */
+            padding: 1.08rem;  /* 1.2rem에서 10% 감소 */
+            background-color: #f8f9fa;
+            border-left: 3px solid #3498db;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .project-title-label {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 0.4rem;
+            font-weight: 500;
+        }
+
+        .project-title-main {
+            font-size: 1.05rem;
+            color: #2c3e50;
+            font-weight: 500;
+            line-height: 1.26;  /* 1.4에서 10% 감소 */
+        }
+
+        .project-title-sub {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.4rem;
+            font-style: italic;
+        }
+
+        /* 업무 내용 리스트 스타일 */
+        .job-description ul {
+            margin: 0;
+            padding-left: 1.2rem;
+        }
+
+        .job-description li {
+            margin-bottom: 0.45rem;  /* 0.5rem에서 10% 감소 */
+            line-height: 1.35;  /* 1.5에서 10% 감소 */
+            color: #34495e;
+            font-size: 0.98rem;
+        }
+
+        /* 논문 성과 섹션 */
+        .achievements {
+            margin-top: 1.35rem;  /* 1.5rem에서 10% 감소 */
+            padding-top: 1.35rem;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .achievements-title {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .publication-section h4 {
+            color: #34495e;
+            font-size: 1.1rem;
+            margin: 1.08rem 0 0.72rem;  /* 1.2rem과 0.8rem에서 10% 감소 */
+            font-weight: 500;
+        }
+
+        .publication-title,
+        .publication-title-kr {
+            color: #2c3e50;
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+            font-size: 1rem;
+            line-height: 1.35;  /* 1.5에서 10% 감소 */
+        }
+
+        .publication-title-en {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.35;  /* 1.5에서 10% 감소 */
+        }
+
+        .publication-conference {
+            color: #666;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        /* 링크 스타일 통일 */
+        .publication-link {
+            color: #3498db;
+            text-decoration: none;
+            margin-left: 0.5rem;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .publication-link:hover {
+            opacity: 1;
+        }
+
+        /* 카드 스타일 통일 */
+        .full-time-item {
+            margin-bottom: 2rem;
+            padding: 1.35rem;  /* 1.5rem에서 10% 감소 */
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 구분선 스타일 */
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 1.35rem 0;  /* 1.5rem에서 10% 감소 */
+        }
+
+        /* 경력기술서 특화 스타일 */
+        .career-header {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        /* 헤더 타이틀 스타일 */
+        #header {
+            text-align: center;
+            margin: auto 2rem 2rem;
+        }
+
+        #header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 0.5rem;
+            padding-top: 0.8rem;
+            padding-bottom: 0.8rem;
+            font-weight: 100;
+            margin-bottom: 0;
+        }
+
+        #header hr {
+            border: none;
+            background-color: lightgray;
+            height: 2px;
+            margin: 0.8rem 0;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .profile-image-container {
+            flex: 0 0 auto;
+            width: 150px;
+        }
+
+        .profile-image {
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-info-container {
+            flex: 1;
+            padding-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            height: 150px;
+        }
+
+        .profile-name {
+            font-size: 1.8rem;
+            margin: 0;
+            padding: 0;
+            color: #2c3e50;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .profile-details {
+            font-size: 1rem;
+            line-height: 1.2;
+            color: #34495e;
+            margin-top: 0.3rem;
+        }
+
+        .profile-details > p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile-contact {
+            margin-top: auto;
+            padding-bottom: 0;
+        }
+
+        .profile-contact p {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0.5rem 0 0.5rem 0;
+            font-size: 0.95rem;
+            line-height: 1.8;
+        }
+
+        .profile-contact p:last-child {
+            margin-bottom: 0;
+        }
+
+        .profile-contact i {
+            width: 16px;
+            color: #3498db;
+            display: inline-flex;
+            justify-content: center;
+        }
+
+        /* 메인 컨텐츠 영역 스타일 */
+        .career-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* 기존 2칼럼 그리드 레이아웃 제거 */
+        main {
+            display: block;
+            margin-top: 0;
+        }
+
+        /* 왼쪽 border 제거 */
+        #mainLeft {
+            border-right: none;
+            padding-right: 0;
+        }
+
+        /* 경력 섹션 스타일 */
+        .career-section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .job-description {
+            margin-top: 1rem;
+        }
+
+        .tech-stack {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        /* 논문 항목 간격 증가 */
+        .publication-item {
+            margin-bottom: 1.2rem;  /* 기존 간격에서 증가 */
+        }
+
+        .publication-item:last-child {
+            margin-bottom: 0;  /* 마지막 항목은 아래 여백 제거 */
+        }
+
+        /* 논문 제목 스타일 수정 */
+        .publication-title-kr {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #2c3e50;
+            font-weight: 500;
+            margin-bottom: 0.3rem;
+            font-size: 1rem;
+        }
+
+        .publication-title-en {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <!-- 이력서 헤더 : 이름과 타이틀 작성 -->
+        <h1>경력기술서</h1>
+        <hr>
+        데이터 수집과 전처리를 좋아하는 AI 엔지니어
+        <hr>
+    </header>
+
+    <div class="career-header">
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <img src="../asset/진우신분증.jpg" alt="정진우 프로필 사진" class="profile-image">
+            </div>
+            <div class="profile-info-container">
+                <div>
+                    <h1 class="profile-name">정진우</h1>
+                    <div class="profile-details">
+                        <p>생년월일: 1995년 03월 27일</p>
+                    </div>
+                </div>
+                <div class="profile-contact">
+                    <p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:jinwoo327@gmail.com">jinwoo327@gmail.com</a>
+                    </p>
+                    <p>
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <a href="https://github.com/JuicyJeong" target="_blank" rel="noopener noreferrer">Github</a>
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                        010-3277-6270
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="career-content">
+        <main>
+            <!-- 여기에 경력 내용이 들어갈 예정입니다 -->
+            <!-- 기존 섹션들을 재활용하되 1칼럼 레이아웃으로 구성할 수 있습니다 -->
+            <div class="career-section">
+                <h2>FULL-TIME</h2>
+                
+                <div class="full-time-item">
+                    <div class="company-header">
+                        <div class="company-name">중앙대학교 – VELAB (Visual Environment Lab)</div>
+                        <div class="company-period">2023.03 - 2025.02</div>
+                        <div class="position-title">석사연구원</div>
+                    </div>
+                    
+                    <div class="project-title-section">
+                        <div class="project-title-label">국가연구개발과제</div>
+                        <div class="project-title-main">광역·고속·연속 동작인식을 위한 공간적 행위기반 다면 상호작용</div>
+                        <div class="project-title-sub">과학기술정보통신부 SW스타랩, 기초연구실 SW컴퓨팅 기술개발사업</div>
+                    </div>
+
+                    <div class="job-description">
+                        <ul>
+                            <li>센서 기반 동작 인식 및 3D 포즈 추정 시스템 개발</li>
+                            <li>Unity3D 기반 가상환경에서 IMU 센서 데이터를 활용한 실시간 아바타 동작 제어 시스템 구현</li>
+                            <li>텍스트 입력 기반 동작 생성 모델 연구 및 개발</li>
+                            <li>연구실 IT 인프라 구축 및 관리 (NAS, 네트워크 설정, Docker 환경 구성 등)</li>
+                        </ul>
+                    </div>
+                    <div class="achievements">
+                        <div class="achievements-title">논문 성과</div>
+                        <div class="publication-section">
+                            <h4>국제 학술대회</h4>
+                            <div class="publication-item">
+                                <div class="publication-title">
+                                    Plausible and Effective Gesture-based Interactions for the Virtual Runway
+                                    <a href="https://ieeexplore.ieee.org/document/10910725" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                                <div class="publication-conference">(ICDDS 2024.12)</div>
+                            </div>
+                            <div class="publication-item">
+                                <div class="publication-title">
+                                    From Ground to Sky: Flying-motion Generation via Motion Dataset Adaptation
+                                    <a href="https://dl.acm.org/doi/abs/10.1145/3641825.3689507" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                                <div class="publication-conference">(ACM - VRST 2024.10)</div>
+                            </div>
+                        </div>
+
+                        <div class="publication-section">
+                            <h4>국내 학술대회</h4>
+                            <div class="publication-item">
+                                <div class="publication-title-group">
+                                    <div class="publication-title-kr">
+                                        비행 동작 데이터셋을 강화하기 위한 모션 생성 네트워크와 목표 시퀀스 궤적의 통합
+                                        <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12041766" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                    <div class="publication-title-en">
+                                        Integrating Motion Generation Networks with Target Sequence Trajectories to Enrich the Flying Motion Dataset
+                                    </div>
+                                </div>
+                                <div class="publication-conference">(Korea Software Congress, 2024.12)</div>
+                            </div>
+                            <div class="publication-item">
+                                <div class="publication-title-group">
+                                    <div class="publication-title-kr">
+                                        시각장애인의 키오스크 상호작용을 위한 효율적인 동작 인식 방법
+                                        <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705402" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                    <div class="publication-title-en">
+                                        Efficient Gesture Recognition Method on Kiosk Interactions for the Visually Impaired
+                                    </div>
+                                </div>
+                                <div class="publication-conference">(Korea Software Congress, 2023.12)</div>
+                            </div>
+                            <div class="publication-item">
+                                <div class="publication-title-group">
+                                    <div class="publication-title-kr">
+                                        가상 지휘자의 애니메이션을 위한 실감나는 손동작 저작
+                                        <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11705405" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </a>
+                                    </div>
+                                    <div class="publication-title-en">
+                                        The Realistic Hand Gesture Authoring for a Virtual Conductor Animation
+                                    </div>
+                                </div>
+                                <div class="publication-conference">(Korea Software Congress, 2023.12, Co-author)</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 추가 풀타임 항목들은 이 아래에 같은 형식으로 추가될 수 있습니다 -->
+            </div>
+
+            <!-- 기존 정규직 섹션 다음에 추가 -->
+            <div class="career-section">
+                <h2>PART-TIME</h2>
+                
+                <div class="full-time-item">
+                    <div class="company-header">
+                        <div class="company-name">
+                            동인네트워크
+                            <a href="https://dongne.co/" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <div class="company-period">2016.07 - 2023.01</div>
+                        <div class="position-title">행사 운영 매니저</div>
+                    </div>
+                    <div class="job-description">
+                        <ul>
+                            <li>COEX, BEXCO, aT센터 등 주요 전시장에서 5,000명 이상의 방문객이 참여하는 대규모 전시 행사 운영</li>
+                            <li>스태프 일정 관리 및 부스 배치 계획 수립을 통한 방문객 동선 최적화 및 혼잡도 감소</li>
+                            <li>Google Sheets 기반 시각화 시스템을 개발하여 혼잡 부스 예측 및 사전 배치 조정</li>
+                            <li>현장 매니저로서 참가자와 행사 주최측 간의 소통 담당 및 실시간 문제 해결</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="full-time-item">
+                    <div class="company-header">
+                        <div class="company-name">지성과진솔아이에스에듀 영어 학원</div>
+                        <div class="company-period">2015.03 - 2018.07; 2019.09 - 2022.07</div>
+                        <div class="position-title">교육 조교 & IT 부분 운영</div>
+                    </div>
+                    <div class="job-description">
+                        <ul>
+                            <li>학생들의 어휘 학습 및 과제 검토 지원, 모의고사 진행 및 채점 보조</li>
+                            <li>코로나19 기간 중 OBS Studio, Youtube, WordPress 기반 원격 교육 환경 구축 및 운영</li>
+                            <li>원격 수업 아카이브 및 영상 배포 시스템 설계·운영으로 재학생 및 외부 학생의 수업 접근성 확보</li>
+                            <li>스트리밍 설정, 카메라 구성, 온라인 출석 관리 등 기술적 문제 해결 및 영상 편집 및 강의 업로드 담당</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="full-time-item">
+                    <div class="company-header">
+                        <div class="company-name">
+                            동네공작소 (팬시 상품 제작 및 판매)
+                            <a href="https://dongne.cc/" class="publication-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                        <div class="company-period">2016.10 - 2017.09</div>
+                        <div class="position-title">제작 및 운영 매니저</div>
+                    </div>
+                    <div class="job-description">
+                        <ul>
+                            <li>주문 접수, 디자인 검증, 레이저 커팅, 후가공, 배송을 포함한 맞춤형 팬시 상품의 전체 제작 워크플로우 관리</li>
+                            <li>Excel 기반 스크립팅을 통한 주문 접수 및 제작 준비 과정 자동화로 수작업 부담 감소 및 주문 정확도 향상</li>
+                            <li>성수기(평시 대비 4-5배 물량) 대응을 위한 외부 인쇄 업체 협력 및 제작 전략 재조정으로 납기 준수</li>
+                            <li>현장 수령 옵션 제공을 통한 하이브리드 배송 전략 개발로 배송 병목 현상 해소</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html> 
