@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
 
 :root {
-    --bg: #f3f5f7;
-    --text: #1d2733;
-    --muted: #5a6776;
-    --line: #d8dfe6;
+    --bg: #eef3f8;
+    --text: #102033;
+    --muted: #3f5368;
+    --line: #c5d1dd;
     --card: #ffffff;
-    --accent: #0b6b78;
+    --accent: #0f4c81;
+    --accent-soft: #e4eef9;
+    --summary-bg: #f6faff;
+    --skills-bg: #f8fbff;
 }
 
 * {
@@ -28,11 +31,13 @@ body {
 }
 
 .resume-header {
-    background: var(--card);
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
     border: 1px solid var(--line);
+    border-left: 5px solid var(--accent);
     border-radius: 12px;
     padding: 1.2rem 1.4rem;
     margin-bottom: 1.3rem;
+    box-shadow: 0 8px 20px rgba(16, 32, 51, 0.08);
 }
 
 h1 {
@@ -82,6 +87,15 @@ h2 {
     font-size: 1.08rem;
     color: var(--accent);
     letter-spacing: 0.02em;
+    font-weight: 700;
+}
+
+.priority-block > h2 {
+    display: inline-block;
+    padding: 0.24rem 0.62rem;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    border: 1px solid #c6d9ef;
 }
 
 h3,
@@ -94,6 +108,23 @@ h4 {
     border: 1px solid var(--line);
     border-radius: 12px;
     padding: 0.95rem 1.05rem;
+    box-shadow: 0 2px 10px rgba(16, 32, 51, 0.05);
+}
+
+.priority-summary .section-card {
+    background: var(--summary-bg);
+    border: 1px solid #b9d0ec;
+    border-left: 5px solid var(--accent);
+    box-shadow: 0 10px 24px rgba(15, 76, 129, 0.12);
+}
+
+.priority-skills .section-card {
+    background: var(--skills-bg);
+    border: 1px solid #c8d9ed;
+}
+
+.priority-skills .skills-grid .section-card {
+    border-top: 3px solid var(--accent);
 }
 
 .intro-layout {
