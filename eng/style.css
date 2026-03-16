@@ -121,7 +121,7 @@ h4 {
 }
 
 .priority-skills .skills-grid .section-card {
-    border-top: 3px solid var(--accent);
+    border-left: 4px solid var(--accent);
 }
 
 .intro-layout {
@@ -198,14 +198,13 @@ h4 {
 }
 
 .group-title {
-    margin: 0.82rem 0 0.5rem;
+    margin: 1rem 0 0.55rem;
     font-size: 1.06rem;
-    color: var(--accent);
-    display: inline-block;
-    padding: 0.22rem 0.64rem;
-    border-radius: 999px;
-    background: #edf4fd;
-    border: 1px solid #cfdcf0;
+    color: #24303d;
+    display: block;
+    padding: 0;
+    background: transparent;
+    border: 0;
 }
 
 .project-item {
