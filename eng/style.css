@@ -126,15 +126,17 @@ h4 {
 
 .intro-layout {
     display: grid;
-    grid-template-columns: 170px minmax(0, 1fr);
+    grid-template-columns: 150px minmax(0, 1fr);
     gap: 1rem;
     align-items: start;
 }
 
 .profile-image {
-    width: 100%;
+    width: 150px;
+    max-width: 100%;
     border-radius: 10px;
     border: 1px solid var(--line);
+    justify-self: center;
 }
 
 .summary-list,
