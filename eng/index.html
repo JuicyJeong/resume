@@ -52,31 +52,38 @@
                     <p>AI Engineer, PM + Lead | 2025.05 - Present</p>
                 </div>
                 <div class="project-block">
-                    <h4>Manufacturing Vision AI Program Lead</h4>
+                    <h4>Manufacturing Vision AI Project Lead</h4>
                     <ul>
-                        <li>Executed end-to-end ownership of manufacturing projects from data acquisition, labeling, dataset build, and training schedule management.</li>
-                        <li>Defined technical directions and customer proposals for detection, segmentation, and classification initiatives.</li>
+                        <li>Led manufacturing vision projects end-to-end as PM and AI engineer, covering data acquisition, labeling, dataset setup, and training schedule management.</li>
+                        <li>Defined technical direction and proposals by analyzing customer requirements across detection, segmentation, classification, and OCR tasks.</li>
                     </ul>
                 </div>
                 <div class="project-block">
-                    <h4>Deepculus Refactor</h4>
+                    <h4>Deepculus Architecture Refactor</h4>
                     <ul>
-                        <li>Refactored Boost.Python-style coupling into socket communication between the C# app and Python runtime.</li>
-                        <li>Designed communication protocols and introduced Python EXE packaging plus source protection for secure deployment.</li>
+                        <li>Refactored a tightly coupled Boost.Python-style structure into socket communication between the C# application and Python runtime.</li>
+                        <li>Designed message protocols and applied Python EXE packaging (PyInstaller), source obfuscation (PyArmor), and archive protection for stronger deployment stability and security.</li>
                     </ul>
                 </div>
                 <div class="project-block">
-                    <h4>Open-Source Benchmarking and Adoption</h4>
+                    <h4>Model Benchmarking and Adoption</h4>
                     <ul>
-                        <li>Benchmarked open-source models such as DINO and SAM3 and defined practical adoption criteria.</li>
-                        <li>Prepared YOLO26 onboarding for the next pipeline with balanced speed/accuracy evaluation plans.</li>
+                        <li>Applied partially tuned open-source backbones (DINO, SAM) to deep learning models.</li>
+                        <li>Planned next-pipeline onboarding of a new YOLO model and validated the speed-accuracy balance.</li>
                     </ul>
                 </div>
                 <div class="project-block">
                     <h4>Inference Optimization</h4>
                     <ul>
-                        <li>Simplified the inference path with ONNX/TensorRT optimization and preprocess wrapper integration.</li>
-                        <li>Reduced line-level tact time to 20ms or below for production feasibility.</li>
+                        <li>Used tiling-based inference for large images and tuned tile batch size to reduce tact time versus single-batch inference.</li>
+                        <li>Converted trained models to ONNX and TensorRT and deployed them in customer solutions.</li>
+                    </ul>
+                </div>
+                <div class="project-block">
+                    <h4>Cross-Functional Collaboration</h4>
+                    <ul>
+                        <li>Collaborated closely with optics and system development teams for image acquisition and on-site equipment integration.</li>
+                        <li>Proactively responded by understanding each team’s scope and required effort in advance.</li>
                     </ul>
                 </div>
             </article>
@@ -85,66 +92,78 @@
         <section aria-labelledby="projects-title">
             <h2 id="projects-title">PROJECTS</h2>
 
-            <h3 class="group-title">Graduate Projects</h3>
-            <article class="section-card project-item">
-                <h4>Model Retraining for Avatar Motion Generation with Modified Dataset
-                    <a href="https://github.com/JuicyJeong/ACTOR_jw" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </h4>
-                <ul>
-                    <li>Retrained the ACTOR motion generation model with domain-specific motion data to produce new sequences.</li>
-                    <li>Built batch conversion scripts for 10,000+ motion samples and visualized outputs in Unity3D.</li>
-                </ul>
+            <article class="section-card experience-item">
+                <div class="item-head">
+                    <h3>Graduate Projects</h3>
+                    <p>Research on Human Motion-related topics</p>
+                </div>
+                <div class="project-block">
+                    <h4>Model Retraining for Avatar Motion Generation with Modified Dataset
+                        <a href="https://github.com/JuicyJeong/ACTOR_jw" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h4>
+                    <ul>
+                        <li class="keyword-line">Keyword: Motion Generation, Unity3D, Dataset Adaptation, SMPL-X, 3D Pose</li>
+                        <li>Retrained the public motion-generation model (ACTOR) on specific motion data to generate new motion sequences.</li>
+                        <li>Built a batch conversion script for over 10,000 motion samples and visualized outputs in Unity3D.</li>
+                    </ul>
+                </div>
+                <div class="project-block">
+                    <h4>Motion Similarity-based Classification Automation and Visualization Tool
+                        <a href="https://github.com/JuicyJeong/TMR_jw" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h4>
+                    <ul>
+                        <li class="keyword-line">Keyword: Motion Similarity, Vector Embedding, Automation, Visualization</li>
+                        <li>Automated TMR encoder-based embedding generation and similarity comparison to reduce qualitative review time.</li>
+                        <li>Improved comparison throughput by implementing a custom data loader and parallel processing.</li>
+                    </ul>
+                </div>
+                <div class="project-block">
+                    <h4>3D Motion Visualization by Integrating Sensor Data into a Unity3D Avatar
+                        <a href="https://github.com/JuicyJeong/Metaverse_VElab/tree/main/MotionCapture/SMPL_X_UNITY/Assets/SMPLX/Scripts" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h4>
+                    <ul>
+                        <li class="keyword-line">Keyword: Unity3D, C#, SMPL-X, IMU, Pose Estimation, Real-Time Motion Capture</li>
+                        <li>Connected IMU sensor data in real time to joint rotations of a Unity3D SMPL-X avatar.</li>
+                        <li>Implemented sensor calibration and coordinate alignment scripts for stable demonstrations.</li>
+                    </ul>
+                </div>
             </article>
 
-            <article class="section-card project-item">
-                <h4>Motion Similarity Classification Automation and Visualization Tool
-                    <a href="https://github.com/JuicyJeong/TMR_jw" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </h4>
-                <ul>
-                    <li>Automated embedding generation and similarity comparison with a TMR-based encoder to reduce review time.</li>
-                    <li>Implemented a custom loader and parallel processing to improve comparison throughput.</li>
-                </ul>
-            </article>
-
-            <article class="section-card project-item">
-                <h4>3D Motion Visualization by Integrating Sensor Data into a Unity3D Avatar
-                    <a href="https://github.com/JuicyJeong/Metaverse_VElab/tree/main/MotionCapture/SMPL_X_UNITY/Assets/SMPLX/Scripts" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </h4>
-                <ul>
-                    <li>Connected real-time IMU sensor data to joint rotations in a Unity3D SMPL-X avatar.</li>
-                    <li>Implemented sensor calibration and coordinate alignment scripts for stable demonstrations.</li>
-                </ul>
-            </article>
-
-            <h3 class="group-title">Personal Projects</h3>
-            <article class="section-card project-item">
-                <h4>Comic Event Booth Crawling and Visualization System
-                    <a href="https://github.com/JuicyJeong/dongneboothlist" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </h4>
-                <ul>
-                    <li>Crawled booth data and visualized operational insights in Google Sheets.</li>
-                    <li>Improved planning quality through auto updates and tag-based filtering.</li>
-                </ul>
-            </article>
-
-            <article class="section-card project-item">
-                <h4>Event Booth Account Information Collection and Structuring System
-                    <a href="https://github.com/JuicyJeong/dongneboothlist/tree/master/Account_info" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </h4>
-                <ul>
-                    <li>Automated account information collection and standardized sharing format for operations teams.</li>
-                    <li>Combined account and tag statistics to support pre-event operation planning.</li>
-                </ul>
-            </article>
-
-            <article class="section-card project-item">
-                <h4>Music Chart Collection and Twitter Auto-Posting System
-                    <a href="https://github.com/JuicyJeong/streaming_chart_tweet" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </h4>
-                <ul>
-                    <li>Built structured chart data collection and automated posting via Twitter API.</li>
-                    <li>Automated daily/weekly update flows to reduce repetitive operational work.</li>
-                </ul>
+            <article class="section-card experience-item">
+                <div class="item-head">
+                    <h3>Personal Projects</h3>
+                    <p>Projects focused on data collection and automation to reduce repetitive work and improve operational decision-making.</p>
+                </div>
+                <div class="project-block">
+                    <h4>Comic Event Booth Crawling and Visualization System
+                        <a href="https://github.com/JuicyJeong/dongneboothlist" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h4>
+                    <ul>
+                        <li class="keyword-line">Keyword: Web Crawling, BeautifulSoup, Pandas, Google Sheets API</li>
+                        <li>Crawled event booth information and visualized it in Google Sheets for operations decision-making.</li>
+                        <li>Improved booth planning accuracy through automatic updates and tag filtering.</li>
+                    </ul>
+                </div>
+                <div class="project-block">
+                    <h4>Event Booth Participant Account Collection and Structuring System
+                        <a href="https://github.com/JuicyJeong/dongneboothlist/tree/master/Account_info" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h4>
+                    <ul>
+                        <li class="keyword-line">Keyword: Web Crawling, Bot, Selenium</li>
+                        <li>Automated participant account collection, structured data in sheets, and standardized team-sharing workflows.</li>
+                        <li>Linked key tag statistics with account data to support pre-event operations planning.</li>
+                    </ul>
+                </div>
+                <div class="project-block">
+                    <h4>Music Chart Data Collection and Twitter Auto-Posting System
+                        <a href="https://github.com/JuicyJeong/streaming_chart_tweet" class="project-link" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </h4>
+                    <ul>
+                        <li class="keyword-line">Keyword: Web Crawling, BeautifulSoup, Tweepy, Twitter(X) API</li>
+                        <li>Structured real-time chart data and operated an automated posting pipeline using Twitter API.</li>
+                        <li>Automated daily and weekly update flows to reduce repetitive work and improve operational continuity.</li>
+                    </ul>
+                </div>
             </article>
         </section>
 

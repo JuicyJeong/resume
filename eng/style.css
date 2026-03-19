@@ -152,6 +152,14 @@ h4 {
     margin-bottom: 0.28rem;
 }
 
+.keyword-line {
+    list-style: none;
+    margin-left: -1.05rem;
+    margin-bottom: 0.32rem;
+    font-size: 0.78em;
+    color: #6f8195;
+}
+
 .summary-list li:last-child,
 .project-item li:last-child,
 .experience-item li:last-child {
@@ -186,8 +194,12 @@ h4 {
     color: var(--muted);
 }
 
+section[aria-labelledby="projects-title"] .experience-item + .experience-item {
+    margin-top: 0.95rem;
+}
+
 .project-block {
-    margin-bottom: 0.72rem;
+    margin-bottom: 0.9rem;
 }
 
 .project-block:last-child {
@@ -195,8 +207,11 @@ h4 {
 }
 
 .project-block h4 {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.14rem;
     color: #24303d;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 .group-title {
