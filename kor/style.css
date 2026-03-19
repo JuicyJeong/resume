@@ -156,7 +156,7 @@ h4 {
     list-style: none;
     margin-left: -1.05rem;
     margin-bottom: 0.32rem;
-    font-size: 0.84em;
+    font-size: 0.78em;
     color: #6f8195;
 }
 
@@ -199,7 +199,7 @@ section[aria-labelledby="projects-title"] .experience-item + .experience-item {
 }
 
 .project-block {
-    margin-bottom: 0.72rem;
+    margin-bottom: 0.9rem;
 }
 
 .project-block:last-child {
@@ -207,7 +207,7 @@ section[aria-labelledby="projects-title"] .experience-item + .experience-item {
 }
 
 .project-block h4 {
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.14rem;
     color: #24303d;
     display: flex;
     align-items: center;
