@@ -224,6 +224,26 @@ h4 {
     margin-bottom: 0.35rem;
 }
 
+.grad-project {
+    border-left: 4px solid var(--accent);
+    background: #f7fbff;
+}
+
+.project-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 46px;
+    padding: 0.08rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid #bfd5ec;
+    flex-shrink: 0;
+}
+
 .project-link {
     color: var(--accent);
     opacity: 0.75;
