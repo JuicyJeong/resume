@@ -152,6 +152,14 @@ h4 {
     margin-bottom: 0.28rem;
 }
 
+.keyword-line {
+    list-style: none;
+    margin-left: -1.05rem;
+    margin-bottom: 0.32rem;
+    font-size: 0.84em;
+    color: #6f8195;
+}
+
 .summary-list li:last-child,
 .project-item li:last-child,
 .experience-item li:last-child {
