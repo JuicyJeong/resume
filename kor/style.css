@@ -197,6 +197,9 @@ h4 {
 .project-block h4 {
     margin-bottom: 0.3rem;
     color: #24303d;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 .group-title {
@@ -222,26 +225,6 @@ h4 {
     align-items: center;
     gap: 0.5rem;
     margin-bottom: 0.35rem;
-}
-
-.grad-project {
-    border-left: 4px solid var(--accent);
-    background: #f7fbff;
-}
-
-.project-badge {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 46px;
-    padding: 0.08rem 0.45rem;
-    border-radius: 999px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    color: var(--accent);
-    background: var(--accent-soft);
-    border: 1px solid #bfd5ec;
-    flex-shrink: 0;
 }
 
 .project-link {
